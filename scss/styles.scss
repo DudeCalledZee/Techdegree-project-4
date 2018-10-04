@@ -1,1 +1,10 @@
 @import "base/index", "components/index", "utilities/index";
+
+body {
+  font-family: $main-font;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}

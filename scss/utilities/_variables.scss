@@ -1,6 +1,11 @@
 // Fonts
 
+$main-font: "Helvetica Neue";
+
 // Breakpoints
+
+$break-sm: 480px;
+$break-lg: 1400px;
 
 // Colors
 
@@ -9,4 +14,4 @@ $default: blue;
 $success: green;
 $error: red;
 $warning: orange;
-$info; purple;
+$info: purple;

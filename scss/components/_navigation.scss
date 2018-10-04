@@ -1,0 +1,13 @@
+.nav__item {
+  display: block;
+  text-align: center;
+  border: 1px red solid;
+
+  a {
+    box-sizing: border-box;
+  }
+}
+
+.nav {
+  padding: 0;
+}
