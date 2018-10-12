@@ -127,17 +127,17 @@ table {
   border-spacing: 0; }
 
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 ul {
   list-style: none; }
 
 .nav__item {
-  display: block;
   text-align: center;
-  border: 1px red solid; }
+  border: 1px black solid; }
   .nav__item a {
-    box-sizing: border-box; }
+    display: block; }
 
 .nav {
   padding: 0; }
@@ -148,5 +148,3 @@ body {
 .container {
   width: 90%;
   margin: auto; }
-
-/*# sourceMappingURL=styles.css.map */
