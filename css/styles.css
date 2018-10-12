@@ -226,9 +226,7 @@ ul {
   border: #c4c4c4 solid 1px; }
 
 .grid__row {
-  padding-bottom: 4em; }
-
-.grid__col--12 {
+  padding-bottom: 4em;
   padding-top: 2.5em; }
 
 .nav__item {
