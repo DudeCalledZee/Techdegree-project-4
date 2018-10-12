@@ -226,8 +226,77 @@ ul {
   border: #c4c4c4 solid 1px; }
 
 .grid__row {
-  padding-bottom: 4em;
-  padding-top: 2.5em; }
+  padding: 2.5em 0; }
+
+.grid__col--12.theme__colors {
+  border-radius: 5px;
+  padding: 0.6em;
+  font-size: 1.2em;
+  margin-top: 0.3em;
+  text-transform: lowercase;
+  text-align: left;
+  font-size: 1em;
+  background-color: #87bfc3; }
+
+.grid__col--6.theme__colors {
+  border-radius: 5px;
+  padding: 0.6em;
+  font-size: 1.2em;
+  margin-top: 0.3em;
+  text-transform: lowercase;
+  text-align: left;
+  font-size: 1em;
+  background-color: #588eeb; }
+
+.grid__col--4.theme__colors {
+  border-radius: 5px;
+  padding: 0.6em;
+  font-size: 1.2em;
+  margin-top: 0.3em;
+  text-transform: lowercase;
+  text-align: left;
+  font-size: 1em;
+  background-color: #a0cbf2; }
+
+.grid__col--3.theme__colors {
+  border-radius: 5px;
+  padding: 0.6em;
+  font-size: 1.2em;
+  margin-top: 0.3em;
+  text-transform: lowercase;
+  text-align: left;
+  font-size: 1em;
+  background-color: #dba8d5; }
+
+.grid__col--5.theme__colors {
+  border-radius: 5px;
+  padding: 0.6em;
+  font-size: 1.2em;
+  margin-top: 0.3em;
+  text-transform: lowercase;
+  text-align: left;
+  font-size: 1em;
+  background-color: #8cd191; }
+
+.grid__col--7.theme__colors {
+  border-radius: 5px;
+  padding: 0.6em;
+  font-size: 1.2em;
+  margin-top: 0.3em;
+  text-transform: lowercase;
+  text-align: left;
+  font-size: 1em;
+  background-color: #d98b8b; }
+
+.grid__col--8.theme__colors {
+  border-radius: 5px;
+  padding: 0.6em;
+  font-size: 1.2em;
+  margin-top: 0.3em;
+  text-transform: lowercase;
+  text-align: left;
+  font-size: 1em;
+  background-color: #e29229; }
 
 .nav__item {
   text-align: center;
@@ -244,6 +313,9 @@ ul {
       color: #fff; }
 
 .container {
+  font-family: #797373;
+  width: 80%;
+  margin: auto;
   font-size: 1.11em;
   line-height: 1.7em;
   font-weight: 500;
@@ -256,10 +328,3 @@ ul {
   margin: 1em;
   margin-bottom: 3em;
   padding-left: 1em; }
-
-body {
-  font-family: #797373; }
-
-.container {
-  width: 80%;
-  margin: auto; }

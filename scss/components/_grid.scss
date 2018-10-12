@@ -1,4 +1,46 @@
 .grid__row {
-  padding-bottom: 4em;
-  padding-top: 2.5em;
+  padding: 2.5em 0;
+}
+
+.grid__col--12.theme__colors {
+  @include button;
+  @include grid-basic;
+  background-color: rgb(135, 191, 195);
+}
+
+.grid__col--6.theme__colors {
+  @include button;
+  @include grid-basic;
+  background-color: rgb(88, 142, 235);
+}
+
+.grid__col--4.theme__colors {
+  @include button;
+  @include grid-basic;
+
+  background-color: rgb(160, 203, 242);
+}
+
+.grid__col--3.theme__colors {
+  @include button;
+  @include grid-basic;
+  background-color: rgb(219, 168, 213);
+}
+
+.grid__col--5.theme__colors {
+  @include button;
+  @include grid-basic;
+  background-color: rgb(140, 209, 145);
+}
+
+.grid__col--7.theme__colors {
+  @include button;
+  @include grid-basic;
+  background-color: rgb(217, 139, 139);
+}
+
+.grid__col--8.theme__colors {
+  @include button;
+  @include grid-basic;
+  background-color: rgb(226, 146, 41);
 }
