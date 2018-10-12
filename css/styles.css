@@ -133,18 +133,31 @@ table {
 ul {
   list-style: none; }
 
+.grid__col--3 {
+  text-align: center;
+  padding: 2.5em; }
+
+.grid__row {
+  padding-bottom: 5em; }
+
 .nav__item {
   text-align: center;
-  border: 1px black solid; }
+  border: 1px black solid;
+  border-radius: 5px;
+  font-weight: bolder; }
   .nav__item a {
-    display: block; }
-
-.nav {
-  padding: 0; }
+    display: block;
+    color: #4e4e4e;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1.3em; }
+    .nav__item a:hover {
+      background-color: rgba(40, 212, 176, 0.75);
+      color: #fff; }
 
 body {
   font-family: "Helvetica Neue"; }
 
 .container {
-  width: 90%;
+  width: 80%;
   margin: auto; }
