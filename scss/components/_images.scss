@@ -2,3 +2,13 @@
   text-align: center;
   padding: 2.5em;
 }
+
+.grid__col--6 {
+  @include flexy;
+}
+
+.img--frame {
+  padding: 1em;
+  margin-top: 3em;
+  border: rgb(196, 196, 196) solid 1px;
+}

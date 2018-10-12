@@ -1,0 +1,15 @@
+.container {
+  font-size: 1.03em;
+  line-height: 1.7em;
+  font-weight: 500;
+  color: $main-font;
+}
+
+.blockquote {
+  font-size: 1.6em;
+  border-left: $success solid 10px;
+  border-radius: 5px;
+  margin: 1em;
+  margin-bottom: 3em;
+  padding-left: 1em;
+}

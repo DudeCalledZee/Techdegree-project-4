@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  .form__input {
+    font-size: 0.9em;
+    font-weight: bold;
+    border: none;
+    border-bottom: $success 8px solid;
+    box-shadow: none;
+    outline: none;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+    margin-bottom: 2em;
+  }
+  .form__label--hidden {
+    display: none;
+  }
+}
+
+.img--avatar {
+  margin: auto;
+  padding: 1.5em;
+}

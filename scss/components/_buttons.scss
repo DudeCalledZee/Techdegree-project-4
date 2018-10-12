@@ -1,0 +1,32 @@
+.theme__colors {
+  @include button;
+  box-shadow: none;
+  border: none;
+  display: block;
+  width: 100%;
+  margin-top: 1.3em;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+
+.btn--default {
+  background-color: $default;
+  color: $white;
+}
+
+.btn--success {
+  background-color: $success;
+  color: $white;
+}
+.btn--error {
+  background-color: $error;
+  color: $white;
+}
+.btn--warning {
+  background-color: $warning;
+  color: $white;
+}
+.btn--info {
+  background-color: $info;
+  color: $white;
+}

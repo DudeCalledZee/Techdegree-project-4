@@ -1,6 +1,6 @@
 // Fonts
 
-$main-font: "Helvetica Neue";
+$main-font: "Titillium Web", sans-serif;
 
 // Breakpoints
 
@@ -10,8 +10,10 @@ $break-lg: 1400px;
 // Colors
 
 $white: #fff;
-$default: blue;
-$success: green;
-$error: red;
-$warning: orange;
-$info: purple;
+$default: rgb(26, 176, 250);
+$success: rgb(91, 212, 190);
+$error: rgb(230, 108, 108);
+$warning: rgb(230, 123, 78);
+$info: rgb(162, 113, 184);
+
+$main-font: rgb(121, 115, 115);

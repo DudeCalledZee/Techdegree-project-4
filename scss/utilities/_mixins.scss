@@ -1,3 +1,16 @@
 // Media queries
 
 // Flexbox settings
+
+@mixin flexy {
+  display: flex;
+  flex-direction: column;
+}
+
+// Button settings
+
+@mixin button {
+  border-radius: 5px;
+  padding: 0.6em;
+  font-size: 1.2em;
+}
