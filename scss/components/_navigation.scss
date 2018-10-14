@@ -14,6 +14,16 @@
     }
   }
 }
+@include mq($break-sm) {
+  .nav {
+    display: flex;
+    padding-top: 1em;
+    padding-right: 2em;
+  }
+}
 
 @include mq($break-sm) {
+  .grid__col--3 {
+    padding: 0;
+  }
 }

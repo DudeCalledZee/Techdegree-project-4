@@ -35,3 +35,7 @@
   text-align: left;
   font-size: 1em;
 }
+
+@mixin grid-larg {
+  text-align: center;
+}

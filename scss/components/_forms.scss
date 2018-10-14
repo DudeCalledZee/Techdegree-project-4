@@ -22,3 +22,9 @@
   margin: auto;
   padding: 1.5em;
 }
+
+@include mq($break-sm) {
+  .form {
+    padding-left: 4em;
+  }
+}

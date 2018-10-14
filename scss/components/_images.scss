@@ -5,10 +5,22 @@
 
 .grid__col--6 {
   @include flexy;
+  @include mq($break-sm) {
+    padding-right: 8em;
+  }
 }
 
 .img--frame {
   padding: 1em;
   margin-top: 3em;
   border: rgb(196, 196, 196) solid 1px;
+  @include mq($break-sm) {
+    margin-left: 3em;
+  }
+}
+
+@include mq($break-sm) {
+  .img--logo {
+    padding-left: 2em;
+  }
 }

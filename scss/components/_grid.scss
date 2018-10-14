@@ -6,41 +6,80 @@
   @include button;
   @include grid-basic;
   background-color: rgb(135, 191, 195);
+  @include mq($break-sm) {
+    @include grid-larg;
+  }
 }
 
 .grid__col--6.theme__colors {
   @include button;
   @include grid-basic;
   background-color: rgb(88, 142, 235);
+  @include mq($break-sm) {
+    @include grid-larg;
+  }
 }
 
 .grid__col--4.theme__colors {
   @include button;
   @include grid-basic;
-
   background-color: rgb(160, 203, 242);
+  @include mq($break-sm) {
+    @include grid-larg;
+  }
 }
 
 .grid__col--3.theme__colors {
   @include button;
   @include grid-basic;
   background-color: rgb(219, 168, 213);
+  @include mq($break-sm) {
+    @include grid-larg;
+  }
 }
 
 .grid__col--5.theme__colors {
   @include button;
   @include grid-basic;
   background-color: rgb(140, 209, 145);
+  @include mq($break-sm) {
+    @include grid-larg;
+  }
 }
 
 .grid__col--7.theme__colors {
   @include button;
   @include grid-basic;
   background-color: rgb(217, 139, 139);
+  @include mq($break-sm) {
+    @include grid-larg;
+    padding-left: 14em;
+    padding-right: 14em;
+  }
 }
 
 .grid__col--8.theme__colors {
   @include button;
   @include grid-basic;
   background-color: rgb(226, 146, 41);
+  @include mq($break-sm) {
+    @include grid-larg;
+    padding-left: 14em;
+    padding-right: 14em;
+  }
+}
+
+@include mq($break-sm) {
+  .grid__row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .grid__col--12 {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+  }
+  .centered {
+    margin: 7em;
+  }
 }

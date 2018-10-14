@@ -14,6 +14,10 @@
   line-height: 1em;
   font-weight: bold;
   color: $success;
+  @include mq($break-sm) {
+    padding-left: 0.5em;
+    font-size: 2em;
+  }
 }
 
 .headline--secondary {
