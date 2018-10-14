@@ -300,7 +300,7 @@ ul {
 
 .nav__item {
   text-align: center;
-  border-radius: 5px; }
+  margin: auto; }
   .nav__item a {
     border-radius: 5px;
     padding: 0.6em;
