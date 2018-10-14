@@ -200,23 +200,28 @@ ul {
 
 .btn--default {
   background-color: #59b0da;
-  color: #fff; }
+  color: #fff;
+  margin: 1em; }
 
 .btn--success {
   background-color: #5bd4be;
-  color: #fff; }
+  color: #fff;
+  margin: 1em; }
 
 .btn--error {
   background-color: #e66c6c;
-  color: #fff; }
+  color: #fff;
+  margin: 1em; }
 
 .btn--warning {
   background-color: #e67b4e;
-  color: #fff; }
+  color: #fff;
+  margin: 1em; }
 
 .btn--info {
   background-color: #a271b8;
-  color: #fff; }
+  color: #fff;
+  margin: 1em; }
 
 .grid__col--3 {
   text-align: center;
