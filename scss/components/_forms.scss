@@ -1,6 +1,7 @@
 .form {
   display: flex;
   flex-direction: column;
+
   .form__input {
     font-size: 0.9em;
     font-weight: bold;
@@ -13,6 +14,7 @@
     padding: 1em;
     margin-bottom: 2em;
   }
+
   .form__label--hidden {
     display: none;
   }
@@ -21,10 +23,18 @@
 .img--avatar {
   margin: auto;
   padding: 1.5em;
+  @include mq($break-sm) {
+    height: auto;
+    width: 50%;
+    padding: 0;
+    margin-bottom: 2em;
+    padding-top: 1em;
+  }
 }
 
 @include mq($break-sm) {
   .form {
-    padding-left: 4em;
+    width: 100%;
+    padding-left: 3em;
   }
 }

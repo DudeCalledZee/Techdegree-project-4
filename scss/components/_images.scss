@@ -6,7 +6,8 @@
 .grid__col--6 {
   @include flexy;
   @include mq($break-sm) {
-    padding-right: 8em;
+    padding-right: 5%;
+    width: 50%;
   }
 }
 
@@ -16,11 +17,13 @@
   border: rgb(196, 196, 196) solid 1px;
   @include mq($break-sm) {
     margin-left: 3em;
+    width: 100%;
   }
 }
 
 @include mq($break-sm) {
   .img--logo {
     padding-left: 2em;
+    padding-right: 4em;
   }
 }

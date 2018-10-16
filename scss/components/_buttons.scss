@@ -9,6 +9,9 @@
   font-size: 1.1em;
   @include mq($break-sm) {
     margin: 0.3em;
+    font-size: 0.9em;
+    padding-left: 1%;
+    padding-right: 1%;
   }
 }
 

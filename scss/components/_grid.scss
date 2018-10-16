@@ -1,5 +1,5 @@
 .grid__row {
-  padding: 2.5em 0;
+  padding: 1em 0;
 }
 
 .grid__col--12.theme__colors {
@@ -26,6 +26,7 @@
   background-color: rgb(160, 203, 242);
   @include mq($break-sm) {
     @include grid-larg;
+    flex: 1.5;
   }
 }
 
@@ -44,6 +45,7 @@
   background-color: rgb(140, 209, 145);
   @include mq($break-sm) {
     @include grid-larg;
+    flex: 1.5;
   }
 }
 
@@ -53,8 +55,7 @@
   background-color: rgb(217, 139, 139);
   @include mq($break-sm) {
     @include grid-larg;
-    padding-left: 14em;
-    padding-right: 14em;
+    flex: 3;
   }
 }
 
@@ -64,8 +65,7 @@
   background-color: rgb(226, 146, 41);
   @include mq($break-sm) {
     @include grid-larg;
-    padding-left: 14em;
-    padding-right: 14em;
+    flex: 3;
   }
 }
 
@@ -77,9 +77,17 @@
   .grid__col--12 {
     display: flex;
     justify-content: space-around;
-    flex: 1;
+    margin: auto;
+    width: 100%;
   }
   .centered {
     margin: 7em;
+  }
+  .grid__col--8 {
+    width: 60%;
+  }
+  .grid__col--4 {
+    width: 40%;
+    font-size: 100%;
   }
 }
